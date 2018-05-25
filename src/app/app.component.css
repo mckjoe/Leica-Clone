@@ -196,3 +196,33 @@ h1#dates-title {
   grid-column: 1 / 4;
   max-height: 100px;
 }
+
+#dates-and-events {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-column: 1 / 4;
+}
+
+#dates-events-image {
+  margin-left: 90px;
+  grid-column: 1 / 2;
+}
+
+#dates-events-info {
+  background-color: white;
+  grid-column: 2 / 4;
+  padding-left: 70px;
+  padding-right: 70px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#dates-events-info p {
+  font-size: 10pt;
+}
+
+#red-add  {
+  height: 175px;
+  background-color: red;
+  grid-column: 1 / 4;
+}
