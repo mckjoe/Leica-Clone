@@ -1,8 +1,8 @@
 # CSS - Code review 1 - Leica website homepage clone
 
 ## Description
-
 This project is a clone of the Leica homepage.  The goal in this project is to practice using CSS grid and Flexbox together to create a responsive replica of their homepage.
+### https://us.leica-camera.com/
 
 ## development
 
