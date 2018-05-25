@@ -221,7 +221,7 @@ h1#dates-title {
   font-size: 10pt;
 }
 
-#red-add  {
+.red-add  {
   height: 175px;
   background-color: darkred;
   grid-column: 1 / 4;
@@ -229,7 +229,7 @@ h1#dates-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
+  margin-bottom: 100px;
 }
 
 p#alignme {
@@ -240,7 +240,65 @@ p#alignme {
 h2#centerme {
   align-self: center;
 }
-/*
-#red-add h2 {
-  padding-left: 250px;
-} */
+
+#streets-of-new-york {
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+#streets {
+  width: 100%;
+  grid-column: 2 / 6;
+  grid-row: 1 / 3;
+}
+
+#street2 {
+  width: 100%;
+  grid-column: 6 / 8;
+  grid-row: 1 / 2;
+}
+
+#street3 {
+  width: 100%;
+  grid-column: 6 / 8;
+  grid-row: 2 / 3;
+}
+
+#add-margin {
+  margin-left: 150px;
+  grid-column: 1 / 4;
+}
+
+#offers {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: center;
+}
+
+.space {
+  margin: 0 15px;
+  max-width: 350px;
+}
+
+#footer {
+  grid-column: 1 / 4;
+}
+
+#footer-ul {
+  list-style: none;
+  display: block;
+  background-color: #262626;
+  border-top: 1px solid gray;
+}
+
+#footer-ul > li  {
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 11pt;
+    font-weight: bolder;
+    line-height: 70px;
+}
