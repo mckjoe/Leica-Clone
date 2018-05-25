@@ -65,6 +65,10 @@
   font-family: arial;
 }
 
+img {
+  transition: transform .4s;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -294,6 +298,7 @@ h1#dates-title {
   justify-content: center;
   margin-bottom: 100px;
   padding: 25px;
+  transition: transform .2s;
 }
 
 p#alignme {
@@ -365,4 +370,41 @@ h2#centerme {
     font-size: 11pt;
     font-weight: bolder;
     line-height: 70px;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.025);
+  cursor: pointer;
+}
+
+.space:hover {
+  cursor: pointer;
+}
+
+#offer1 p:hover, #offer2 p:hover, #offer3 p:hover  {
+  color: darkred;
+}
+
+.red-add:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+h3:hover {
+  cursor: pointer;
+  color: darkred;
+}
+
+h4:hover {
+  color: red;
+  cursor: pointer;
 }
