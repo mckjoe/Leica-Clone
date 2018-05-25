@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(10px, auto);
+  background-color: #f4f4f4;
 }
 
 .navbar {
@@ -124,10 +125,11 @@ margin-right: 20px;
    grid-row: 1 / 8;
  }
  #lease {
-   grid-column: 2 / 3;
+   grid-column: 1 / 3;
    grid-row: 8 / 10;
    background-color: white;
    border: 1px solid lightgray;
+   padding: 20px;
  }
 
  #first-body-block #body-image {
@@ -139,15 +141,17 @@ margin-right: 20px;
    margin-left: 25px;
  }
 
- #first-body-block h3 {
+ #first-body-block #trade {
    grid-column: 3 / 4;
    grid-row: 4 / 5;
    margin-left: 25px;
+   background-color: white;
+   height: 55px;
  }
 
  #first-body-block img#india {
    max-width: 375px;
-   max-height: 300px;
+   max-height: 275px;
    grid-column: 3 / 4;
    grid-row: 5 / 10;
    margin-left: 25px;
@@ -166,3 +170,29 @@ margin-right: 20px;
    align-items: center;
    max-width: 275px;
  }
+
+#highlights-title {
+  margin-top: 88px;
+  margin-left: 75px;
+  grid-column: 1 / 4;
+  max-height: 100px;
+}
+
+#product-highlights {
+  display: flex;
+  justify-content: center;
+  grid-column: 1 / 4;
+
+}
+
+.highlight-item {
+  max-width: 300px;
+  margin: 0 15px;
+}
+
+h1#dates-title {
+  margin-top: 88px;
+  margin-left: 75px;
+  grid-column: 1 / 4;
+  max-height: 100px;
+}
