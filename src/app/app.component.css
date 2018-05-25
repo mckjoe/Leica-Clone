@@ -213,8 +213,8 @@ h1#dates-title {
   grid-column: 2 / 4;
   padding-left: 70px;
   padding-right: 70px;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 100%;
+  max-height: 475px
 }
 
 #dates-events-info p {
@@ -223,6 +223,24 @@ h1#dates-title {
 
 #red-add  {
   height: 175px;
-  background-color: red;
+  background-color: darkred;
   grid-column: 1 / 4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
+
+p#alignme {
+  align-self: flex-start;
+  padding-left: 115px;
+}
+
+h2#centerme {
+  align-self: center;
+}
+/*
+#red-add h2 {
+  padding-left: 250px;
+} */
