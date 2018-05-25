@@ -28,7 +28,7 @@ This project is a clone of the Leica homepage.  The goal in this project is to p
 * With command line, change directories into Desktop/
 * With command line, enter "git clone + path"
 * Change directories into new folder on Desktop
-* With command line, enter "npm install" to add npm to folder
+* With command line, enter "npm install" to add node_modules to folder
 
 ### To view source code on your machine:
 
