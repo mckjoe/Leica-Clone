@@ -20,6 +20,8 @@ This project is a clone of the Leica homepage.  The goal in this project is to p
 
 7.  Focus on styling details and adding pseudo-classes to my page to create a more friendly user experience.  
 
+8. Screen shots of original website also in drawing folder.
+
 ## Setup and Installation
 
 ### To clone project to your machine:
