@@ -1,3 +1,7 @@
+* {
+  font-family: arial;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -8,6 +12,7 @@
   grid-column: 1 / 4;
   display: flex;
   justify-content: space-between;
+
 }
 
 li > button {
@@ -24,7 +29,6 @@ li > button {
   font-size: 10pt;
   background-color: #262626;
   border: 1px solid lightgray;
-  font-family: arial;
   color: gray;
   font-weight: bolder;
 }
@@ -45,6 +49,10 @@ li > button {
   height: 10px;
 }
 
+.navbar-list {
+  flex-wrap: wrap;
+}
+
 .navbar-list #logo {
   height: 55px;
 }
@@ -54,7 +62,7 @@ li > button {
   margin-right: 25px;
 }
 
-.navbar-list {
+ul {
   list-style: none;
   display: flex;
 }
@@ -73,3 +81,29 @@ margin-right: 20px;
   width: 100%;
   height: 500px;
 }
+
+#button-navbar {
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: space-around;
+  height: 88px;
+  margin-bottom: 60px;
+}
+ #button-navbar > ul > li {
+   display: flex;
+   margin: 0 30px;
+   color: gray;
+   padding-left: 30px;
+   border-left: 1px solid lightgray;
+   align-items: center;
+ }
+
+ #button-navbar > ul > li:last-of-type {
+   padding-right: 30px;
+   border-right: 1px solid lightgray;
+ }
+
+ #button-navbar > ul > li:first-of-type {
+   color: #262626;
+   border-bottom: 4px solid darkred;
+ }
