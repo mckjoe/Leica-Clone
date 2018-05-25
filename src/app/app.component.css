@@ -1,3 +1,56 @@
+@media screen and (max-width: 999px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(10px, auto);
+    background-color: #f4f4f4;
+  }
+  #button-navbar {
+    display: none !important;
+  }
+  #add1 {
+    margin-bottom: 25px;
+  }
+  #first-body-block {
+   grid-column: 1 / 3;
+   display: flex !important;
+   flex-direction: column;
+  }
+
+  #first-body-block img {
+    width: 100%;
+    height: 500px;
+  }
+  #lease {
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+
+  #first-body-block img#body-image {
+    max-width: 600px !important;
+    max-height: 400px !important;
+    margin: 0 auto !important;
+    margin-left: 25px;
+  }
+
+  #first-body-block #trade {
+    margin: 0 auto 25px auto !important;
+  }
+
+  #first-body-block img#india {
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    margin-left: 25px;
+  }
+
+  #first-body-block #black-background {
+    margin: 0 auto !important;
+  }
+
+}
+
 * {
   font-family: arial;
 }
