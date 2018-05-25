@@ -1,10 +1,4 @@
-@media screen and (max-width: 999px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(10px, auto);
-    background-color: #f4f4f4;
-  }
+@media screen and (max-width: 760px) {
   #button-navbar {
     display: none !important;
   }
@@ -12,43 +6,59 @@
     margin-bottom: 25px;
   }
   #first-body-block {
-   grid-column: 1 / 3;
    display: flex !important;
    flex-direction: column;
   }
-
   #first-body-block img {
     width: 100%;
     height: 500px;
   }
   #lease {
-    background-color: white;
-    border: 1px solid lightgray;
-    padding: 20px;
     margin-bottom: 25px;
   }
-
   #first-body-block img#body-image {
     max-width: 600px !important;
     max-height: 400px !important;
     margin: 0 auto !important;
-    margin-left: 25px;
-  }
 
+  }
   #first-body-block #trade {
     margin: 0 auto 25px auto !important;
   }
-
   #first-body-block img#india {
     max-width: 600px !important;
     margin: 0 auto !important;
-    margin-left: 25px;
   }
-
   #first-body-block #black-background {
     margin: 0 auto !important;
   }
+  #item2, #item3 {
+    display: none !important;
+  }
+  #dates-and-events {
+    display: flex !important;
+    flex-direction: column;
+  }
+  #streets {
+    width: 500px !important;
+  }
+  #street2, #street3 {
+    display: none !important;
+  }
+  #offers {
+    display: flex !important;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
 
+@media screen and (max-width: 400px) {
+  #streets {
+    width: 300px !important;
+  }
+#leica {
+    width: 300px !important;
+  }
 }
 
 * {
@@ -283,6 +293,7 @@ h1#dates-title {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 100px;
+  padding: 25px;
 }
 
 p#alignme {
