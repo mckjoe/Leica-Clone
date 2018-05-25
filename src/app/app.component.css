@@ -107,3 +107,62 @@ margin-right: 20px;
    color: #262626;
    border-bottom: 4px solid darkred;
  }
+
+ #first-body-block {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(10, 60px);
+    margin-left: 10%;
+ }
+
+ #first-body-block img {
+   width: 100%;
+   height: 500px;
+   grid-column: 1 / 3;
+   grid-row: 1 / 8;
+ }
+ #lease {
+   grid-column: 2 / 3;
+   grid-row: 8 / 10;
+   background-color: white;
+   border: 1px solid lightgray;
+ }
+
+ #first-body-block #body-image {
+   max-width: 275px;
+   max-height: 200px;
+   grid-column: 3 / 4;
+   grid-row: 1 / 4;
+   margin-right: 25px;
+   margin-left: 25px;
+ }
+
+ #first-body-block h3 {
+   grid-column: 3 / 4;
+   grid-row: 4 / 5;
+   margin-left: 25px;
+ }
+
+ #first-body-block img#india {
+   max-width: 375px;
+   max-height: 300px;
+   grid-column: 3 / 4;
+   grid-row: 5 / 10;
+   margin-left: 25px;
+ }
+
+ #first-body-block #black-background {
+   display: flex;
+   grid-column: 3 / 4;
+   grid-row: 9 / 10;
+   padding-left: 10px;
+   margin-left: 25px;
+   margin-right: 25px;
+   background-color: black;
+   color: white;
+   height: 68px;
+   align-items: center;
+   max-width: 275px;
+ }
