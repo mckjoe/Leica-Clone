@@ -8,7 +8,7 @@ This project is a clone of the Leica homepage.  The goal in this project is to p
 
 1. Find page to clone.  I went with the Leica webpage because they are an incredible camera manufacturer and photography is one of my passions in life, so it just made sense.  Leica is a company that makes incredibly high quality cameras so it should be fun to mess around with their page, and they seem to have made good use of CSS Grid, Flexbox and media queries.
 
-2.  Draw layout for different breakpoints.  The Leica webpage seems to have four media queries.  The first for 1000px + displays, the second for 760 - 999px displays, the third for 460 - 759px displays, and the fourth for displays smaller than 460px.  Scans of my drawings are available to be viewed in the drawings file in the top directory.
+2.  Draw layout for different breakpoints.  The Leica webpage seems to have four media queries.  The first for 1000px + displays, the second for 760 - 999px displays, the third for 460 - 759px displays, and the fourth for displays smaller than 460px.  Scans of my drawings are available to be viewed in the drawings folder.
 
 3. Begin Creating README.md.  Here we are.   
 
@@ -26,7 +26,7 @@ This project is a clone of the Leica homepage.  The goal in this project is to p
 
 * Clone the path from Github
 * With command line, change directories into Desktop/
-* With command line, nter "git clone + path"
+* With command line, enter "git clone + path"
 * Change directories into new folder on Desktop
 * With command line, enter "npm install" to add npm to folder
 
